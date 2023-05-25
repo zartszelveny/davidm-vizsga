@@ -57,4 +57,12 @@ public class RunnerEntity {
     public List<LapTimeEntity> getLaptimes() {
         return laptimes;
     }
+
+    public SponsorEntity getSponsor() {
+        return sponsor;
+    }
+
+    public void setSponsor(SponsorEntity sponsor) {
+        this.sponsor = sponsor;
+    }
 }

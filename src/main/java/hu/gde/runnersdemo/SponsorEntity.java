@@ -11,7 +11,6 @@ import java.util.List;
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long sponsorId;
-    @Column(nullable = false)
     private String sponsorName;
 
 
