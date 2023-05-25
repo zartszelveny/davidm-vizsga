@@ -47,6 +47,27 @@ public class RunnerRestController {
         return runnerRepository.findAll();
     }
 
+    @GetMapping("/Runnermaxheight")
+    public String getRunnerMaxHeightName() {
+        List<RunnerEntity> runners = runnerRepository.findAll();
+        if (runners.size()>0){
+            RunnerEntity maxheight =null;
+             for (RunnerEntity runner :runners){
+                 if(maxheight== null ||  runner.getHeight()> maxheight.getHeight()){
+                     maxheight=runner;
+                 }
+
+             }
+            return maxheight.getRunnerName();
+        }
+        return "";
+
+
+
+    }
+
+
+
     @PostMapping("/{id}/addlaptime")
     public ResponseEntity addLaptime(@PathVariable Long id, @RequestBody LapTimeRequest lapTimeRequest) {
         RunnerEntity runner = runnerRepository.findById(id).orElse(null);
