@@ -1,6 +1,6 @@
-Név:
-Szak:
-Neptun azonosító:
+Név: Dávid Márk
+Szak: Márnökinformatikus
+Neptun azonosító: CSGRD7
 
 Kérdés 1:
 Melyik szerepel az Agile Manifestoban az alábbiak közül?
