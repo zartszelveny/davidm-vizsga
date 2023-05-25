@@ -8,7 +8,7 @@ Melyik szerepel az Agile Manifestoban az alábbiak közül?
 A. Terv alapú fejlesztés a változó igények helyett
 B. A dokumentáció előnyben részesítése a működő szoftverrel szemben
 C. Együttműködés az ügyféllel szerződés tárgyalása helyett
-D. Egyértelműen meghatározott projektszabályok a változások helyett
+D. Egyértelműen  meghatározott projektszabályok a változások helyett
 
 Válasz:C
 
